@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Padauk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 50%;
+  background-color: skyblue;
+  padding: 40px;
+  margin: auto;
+  border-radius: 30px;
+  font-family: "Cinzel", serif;
+}
+input {
+  width: 50%;
+  text-align: left;
+  padding: 5px 10px;
+  font-family: "Padauk", sans-serif;
+  font-size: 20px;
+}
+.suggest {
+  width: 48%;
+  border-right: 2px solid rgb(66, 64, 64);
+  border-left: 2px solid rgb(66, 64, 64);
+  border-bottom: 3px solid rgb(66, 64, 64);
+  border-radius: 2px;
+  padding: 10px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  cursor: pointer;
+  font-weight: 600;
+}
+.suggest:hover {
+  background-color: rgb(189, 185, 185);
+}
